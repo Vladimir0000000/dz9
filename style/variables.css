@@ -1,0 +1,37 @@
+@font-face {
+    font-family:"roboto";
+    src: url(../public/fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family:"inter";
+    src: url(../public/fonts/inter/Inter-Medium.ttf);
+}
+
+
+:root {
+    --background-main:rgb(0, 255, 255);
+    --background-secondary:rgb(191, 255, 255);
+    --background-rear:rgb(80, 168, 168);
+
+    --color-main:rgb(4, 45, 53);
+    --color-rear:rgb(255, 255, 255);
+
+    --fs-xl: 2rem;
+    --fs-l: 1.5rem;
+    --fs-m: 1rem;
+    --fs-s: 0.8rem;
+
+    --ff-primary:"inter";
+    --ff-secondary:"roboto";
+
+    --padding-xl: 3rem;
+    --padding-l: 2rem;
+    --padding-m: 1rem;
+    --padding-s: 0.6rem;
+
+    --margin-xl: 3rem;
+    --margin-l: 2rem;
+    --margin-m: 1rem;
+    --margin-s: 0.6rem; 
+}

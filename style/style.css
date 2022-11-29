@@ -1,0 +1,103 @@
+@import url(./variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-nav {
+    background-color: var(--background-main);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-main);
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-m);
+}
+
+.logo-wrapper {
+    margin: var(--margin-m);
+}
+
+.logo {
+    width: 3rem;
+    margin-left: var(--margin-xl);
+}
+
+.nav-item{
+    padding: var(--padding-s);
+    margin: var(--margin-xl);
+    font-size: var(--fs-l);
+}
+
+.nav-item:hover {
+    background-color: var(--background-rear);
+    color: var(--color-rear);
+    border-radius: 50%;
+}
+
+.contact-wrapper{
+    margin-right: var(--margin-xl);
+}
+
+.start-number{
+    font-size: var(--fs-l);
+    color: rgb(0, 0, 0)
+}
+
+.start-email{
+    font-size: var(--fs-l);
+    color: rgb(0, 0, 0) 
+}
+
+.header-input {
+    background-color: var(--background-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title-wrapper {
+    margin: var(--margin-m);
+}
+
+.title {
+    font-size: var(--fs-l);
+    font-family: var(--ff-primary);
+    margin-left: var(--margin-l);
+}
+
+.start-title {
+    color: rgb(0, 20, 174);
+}
+
+.input-wrapper {
+    margin-left: var(--margin-xl);
+    width: 50%;
+}
+
+.input {
+    width: 40%;
+    background: var(--background-rear);
+    color: var(--color-rear);
+    padding: var(--padding-s);
+    border: none;
+}
+
+.btn {
+    background: var(--background-rear);
+    color: var(--color-rear);
+    padding: var(--padding-s);
+    border: none;
+}
+
