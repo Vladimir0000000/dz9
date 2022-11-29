@@ -15,6 +15,10 @@ a {
     color: inherit;
 }
 
+body {
+    height: 100vh;
+}
+
 .header-nav {
     background-color: var(--background-main);
     display: flex;
@@ -104,4 +108,51 @@ a {
 .btn:active {
     transform: translateY(1px);
     filter: saturate(150%);
+  }
+
+  .block {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 3rem;
+  }
+
+  .main {
+    margin-right: var(--margin-l);
+  }
+
+  .products-wrapper{
+    display: flex;
+    margin-top: var(--margin-l);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product {
+    margin: var(--margin-m);
+    text-align: center;
+    font-size: var(--fs-m);
+    font-family: var(--ff-primary);
+  }
+
+  .product-img {
+    width: 15rem;
+  }
+
+  .main-description__wrapper{
+    margin-top: var(--margin-xl);
+  }
+
+  .main-description{
+    font-size: var(--fs-l);
+    font-family: var(--ff-secondary);
+    text-align: center;
+  }
+
+  .aside {
+    padding: 2rem 4rem 2rem 2rem;
+    overflow-y: auto;
+    border-left: 2px solid rgb(0, 255, 255);
+    width: 30%;
   }
